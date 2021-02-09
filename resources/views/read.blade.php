@@ -16,15 +16,17 @@
             <div>
                 <h3 class="float-md-start mb-0">Cover</h3>
                 <nav class="nav nav-masthead justify-content-center float-md-end">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Read</a>
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" href="#">Read</a>
                     <a class="nav-link" href="#">Contact</a>
                 </nav>
             </div>
         </header>
         <main class="px-3">
             <h1>Cover your page.</h1>
-            <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
+            <p class="lead"><b>Chapter:</b> {{ $Chapter }}</p>
+            <p class="lead"><b>Verse:</b> {{ $Verse }}</p>
+            <p class="lead"><b>Translation:</b> {{ $Translation }}</p>
             <p class="lead">
                 <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
             </p>

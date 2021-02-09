@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/read', function () {
+    $verse= [
+        'Chapter' => '1',
+        'Verse' => '1',
+        'Translation' => 'Dhritarastra said: O Sanjaya, what did my sons and the sons of Pandu actually do when, eager for battle, they gathered together on the holy field of Kuruksetra?'
+    ];
+    return view('read',$verse);
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
