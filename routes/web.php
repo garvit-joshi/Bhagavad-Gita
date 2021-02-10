@@ -24,7 +24,7 @@ Route::get('/', function () {
 });
 
 Route::get('/read', function () {
-    return view('read',$verse);
+    return view('read');
 });
 
 Route::get('/contact', function () {
