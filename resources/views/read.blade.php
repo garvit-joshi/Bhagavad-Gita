@@ -15,7 +15,7 @@
         More
         </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="{{ url('verseofday') }}">Verse of the day</a></li>
+            <li><a class="dropdown-item" href="{{ url('read/verseofday') }}">Verse of the day</a></li>
             <li><a class="dropdown-item" href="https://github.com/garvit-joshi/Bhagavad-Gita" target="_blank">GitHub Source Code</a></li>
         </ul>
     </li>
