@@ -24,5 +24,6 @@
 @endsection
 
 @section('content')
+<h1>verseofday</h1>
 
 @endsection

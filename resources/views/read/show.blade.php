@@ -24,7 +24,7 @@
 @endsection
 
 @section('content')
-
+<h1>Show</h1>
 <div class="shloka">
 
 </div>

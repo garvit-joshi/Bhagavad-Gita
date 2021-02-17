@@ -24,6 +24,6 @@
 @endsection
 
 @section('content')
-<h1>Hello</h1>
+<h1>Read -index</h1>
 
 @endsection
