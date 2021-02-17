@@ -26,7 +26,7 @@
 @section('content')
 <h1>Show</h1>
 <div class="shloka">
-
+<h1>{{ $bhagavad->explanation }}</h1> 
 </div>
 
 @endsection

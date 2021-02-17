@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Bhagavads;
 
 class ReadController extends Controller
 {
@@ -15,6 +16,8 @@ class ReadController extends Controller
     }
 
     public function show($id) {
-        return view('read.show');
+        $bhagavad = Bhagavads::findOrFail($id);
+
+        return view('read.show', ['bhagavad' => $bhagavad]);
     }
 }
