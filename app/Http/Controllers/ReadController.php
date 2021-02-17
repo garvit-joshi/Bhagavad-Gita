@@ -16,7 +16,7 @@ class ReadController extends Controller
     }
 
     public function show($id) {
-        $bhagavad = Bhagavads::findOrFail($id);
+        $bhagavad = Bhagavads::findOrFail($id); //DB-fetch
 
         return view('read.show', ['bhagavad' => $bhagavad]);
     }
