@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ReadController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,19 +14,19 @@ use App\Http\Controllers\ReadController;
 */
 
 
-
-
-
-
 //Routes
 Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/read', [ReadController::class, 'index']);
+Route::get('/read', function () {
+    return view('read.show');
+});
 
 Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/read/verseofday', [ReadController::class, 'show']);
+Route::get('/read/verseofday/', function () {
+    return view('read.verseOfTheDay');
+});
