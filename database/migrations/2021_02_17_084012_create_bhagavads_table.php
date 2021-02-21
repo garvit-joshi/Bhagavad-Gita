@@ -19,7 +19,6 @@ class CreateBhagavadsTable extends Migration
             $table->string('verse');
             $table->string('shloka');
             $table->text('explanation');
-            $table->timestamps();
         });
     }
 
