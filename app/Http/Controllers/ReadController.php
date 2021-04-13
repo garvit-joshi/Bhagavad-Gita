@@ -15,11 +15,12 @@ class ReadController extends Controller
         return view('read.verseOfTheDay');
     }
 
-    public function show($id) {
+    public function show($chapter) {
+        $verse = request('verse');
         try
         {
-            $bhagavad = Bhagavads::where('verse', $id)
-            ->where('chapter', 1)
+            $bhagavad = Bhagavads::where('verse', $verse)
+            ->where('chapter', $chapter)
             ->first();
         }
         catch(\Illuminate\Database\QueryException $ex)

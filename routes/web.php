@@ -24,7 +24,7 @@ Route::get('/read', [ReadController::class, 'index']);
 
 Route::get('/read/verseofday/', [ReadController::class, 'verseOfTheDay']);
 
-Route::get('/read/{id}', [ReadController::class, 'show']);
+Route::get('/read/{chapter}', [ReadController::class, 'show']);
 
 Route::get('/contact', function () {
     return view('contact');

@@ -34,5 +34,41 @@
     	</nav>
     	@yield('content')
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		<footer class="footer-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="https://bootstrapstudio.io/">Web design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="https://dashboard.heroku.com/apps">Hosting</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-3 item">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="https://github.com/garvit-joshi/Bhagavad-Gita">GitHub</a></li>
+                        <li><a href="https://github.com/garvit-joshi/Bhagavad-Gita">Project</a></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 item text">
+                    <h3><strong>Bhagavad Gita</strong></h3>
+                    <p><strong>Bhagavad Gita</strong>, also known as the&nbsp;<strong>Gita</strong>&nbsp;-&nbsp;<em>"The
+                            Song of The Lord"</em>&nbsp;is a practical guide to one's life that guides one to
+                        re-organise their life, achieve inner peace and approach the Supreme Lord (the Ultimate
+                        Reality). It is a 700-verse text in Sanskrit which comprises chapters 23 through 40 in the
+                        Bhishma-Parva section of the&nbsp;<strong>Mahabharata</strong>.</p>
+                </div>
+                <div class="col item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i
+                            class="icon ion-social-twitter"></i></a><a href="#"><i
+                            class="icon ion-social-snapchat"></i></a><a href="#"><i
+                            class="icon ion-social-instagram"></i></a></div>
+            </div>
+            <p class="copyright">Garvit Joshi © 2021</p>
+        </div>
+    </footer>
+    <script src="/js/bootstrap.min.js"></script>
 	</body>
 </html>
