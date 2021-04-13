@@ -24,8 +24,10 @@
             	<div class="collapse navbar-collapse" id="navbarNavDropdown">
               		@yield('navbar')
             	</div>
-				<form class="d-flex">
+				<form class="d-flex" action="{{ route('login') }}">
 					<button class="btn btn-outline-success login-reg" type="submit">Login</button>
+				</form>
+				<form class="d-flex" action="{{ route('register') }}">
 					<button class="btn btn-outline-success login-reg" type="submit">Register</button>
 				</form>
         	</div>

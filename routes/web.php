@@ -29,3 +29,7 @@ Route::get('/read/{id}', [ReadController::class, 'show']);
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
