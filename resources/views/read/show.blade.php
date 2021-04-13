@@ -5,12 +5,12 @@
         <a class="nav-link" aria-current="page" href="{{ url('/') }}">Home</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="{{ url('read') }}">Read</a>
+        <a class="nav-link active" href="{{ url('read') }}">Read</a>
     </li>
     <li class="nav-item">
         <a class="nav-link" href="{{ url('contact') }}">Contact Us</a>
     </li>
-    <li class="nav-item dropdown active">
+    <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         More
         </a>
@@ -24,9 +24,12 @@
 @endsection
 
 @section('content')
-<h1>Show</h1>
+<h1>Reading</h1>
 <div class="shloka">
-<h1>{{ $bhagavad->explanation }}</h1> 
+<h1>Chapter: {{ $bhagavad->chapter }}</h1>
+<h1>Verse: {{ $bhagavad->verse }}</h1>
+<p>Shloka: {{ $bhagavad->shloka }}</p>
+<p>{{ $bhagavad->explanation }}</p> 
 </div>
 
 @endsection

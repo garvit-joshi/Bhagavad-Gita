@@ -16,8 +16,20 @@ class ReadController extends Controller
     }
 
     public function show($id) {
-        $bhagavad = Bhagavads::findOrFail($id); //DB-fetch
-
+        try
+        {
+            $bhagavad = Bhagavads::where('verse', $id)
+            ->where('chapter', 1)
+            ->first();
+        }
+        catch(\Illuminate\Database\QueryException $ex)
+        {
+            return view('read.verseOfTheDay');
+        }
+        if( $bhagavad == "")
+        {
+            return view('read.verseOfTheDay');
+        }
         return view('read.show', ['bhagavad' => $bhagavad]);
     }
 }
