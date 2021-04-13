@@ -16,6 +16,7 @@ class CreateBhagavadsTable extends Migration
         Schema::create('bhagavads', function (Blueprint $table) {
             $table->id();
             $table->string('chapter');
+            $table->string('title');
             $table->string('verse');
             $table->string('shloka');
             $table->text('explanation');

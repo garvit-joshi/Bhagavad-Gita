@@ -39,20 +39,20 @@
                     <div class="box">
                         <h3 class="name"><strong>Chapter 1 - Arjuna Visada Yoga</strong></h3>
                         <h3 class="name"></h3>
-                        <p class="description">Arjuna's Dilemma</p><a class="learn-more" href="#">Learn more »</a>
+                        <p class="description">Arjuna's Dilemma</p><a class="learn-more" href="{{ url('read/1') }}">Learn more »</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box">
                         <h3 class="name"><strong>Chapter 2 - Sankhya Yoga</strong></h3>
-                        <p class="description">Transcendental Knowledge</p><a class="learn-more" href="#">Learn more
+                        <p class="description">Transcendental Knowledge</p><a class="learn-more" href="{{ url('read/2') }}">Learn more
                             »</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box">
                         <h3 class="name"><strong>Chapter 3 - Karma Yoga</strong></h3>
-                        <p class="description">Path of Selfless Service</p><a class="learn-more" href="#">Learn more
+                        <p class="description">Path of Selfless Service</p><a class="learn-more" href="{{ url('read/3') }}">Learn more
                             »</a>
                     </div>
                 </div>
@@ -60,19 +60,19 @@
                     <div class="box">
                         <h3 class="name"><strong>Chapter 4 - Jnana Karma Sanyasa Yoga</strong></h3>
                         <p class="description">Path of Knowledge and the Disciplines of Action</p><a class="learn-more"
-                            href="#">Learn more »</a>
+                            href="{{ url('read/4') }}">Learn more »</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box">
                         <h3 class="name"><strong>Chapter 5 - Karma Sanyasa Yoga</strong></h3>
-                        <p class="description">Path of Renunciation</p><a class="learn-more" href="#">Learn more »</a>
+                        <p class="description">Path of Renunciation</p><a class="learn-more" href="{{ url('read/5') }}">Learn more »</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-5 col-lg-4 item">
                     <div class="box">
                         <h3 class="name"><strong>Chapter 6 - Dhyana Yoga</strong></h3>
-                        <p class="description">Path of Meditation</p><a class="learn-more" href="#">Learn more »</a>
+                        <p class="description">Path of Meditation</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
                     </div>
                 </div>
             </div>

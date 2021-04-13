@@ -17,6 +17,13 @@ class ReadController extends Controller
 
     public function show($chapter) {
         $verse = request('verse');
+        if($verse == "")
+        {
+            $bhagavad = Bhagavads::where('chapter', $chapter)->get();
+            return view('read.verse', [
+                'verse_array' => $bhagavad,
+            ]);
+        }
         try
         {
             $bhagavad = Bhagavads::where('verse', $verse)
