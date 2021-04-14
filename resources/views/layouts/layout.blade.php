@@ -6,12 +6,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<!-- Bootstrap CSS -->
-		<link href="/css/main.css" rel="stylesheet">
-		<link rel="stylesheet" href="/css/bootstrap.min.css">
-    	<link rel="stylesheet" href="/fonts/ionicons.min.css">
-    	<link rel="stylesheet" href="/css/Features-Boxed.css">
-    	<link rel="stylesheet" href="/css/Footer-Dark.css">
-    	<link rel="stylesheet" href="/css/styles.css">
+		<link href="assets/css/main.css" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    	<link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    	<link rel="stylesheet" href="assets/css/Features-Boxed.css">
+    	<link rel="stylesheet" href="assets/css/Footer-Dark.css">
+    	<link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <link rel="stylesheet" href="assets/css/animated-services.css">
+        <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
 		<title>Shrimad Bhagavad Gita</title>
   	</head>
   	<body>
@@ -33,7 +38,6 @@
         	</div>
     	</nav>
     	@yield('content')
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 		<footer class="footer-dark">
         <div class="container">
             <div class="row">
@@ -69,6 +73,8 @@
             <p class="copyright">Garvit Joshi © 2021</p>
         </div>
     </footer>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
 	</body>
 </html>
