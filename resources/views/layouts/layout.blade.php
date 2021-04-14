@@ -17,6 +17,7 @@
         <link rel="stylesheet" href="/css/animated-services.css">
         <link rel="stylesheet" href="/fonts/fontawesome-all.min.css">
         <link rel="stylesheet" href="/css/styles.css">
+        <link rel="icon" type="image/png" href="/img/radhakrishna.png"/>
 		<title>Shrimad Bhagavad Gita</title>
   	</head>
   	<body>
