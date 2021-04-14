@@ -24,10 +24,15 @@
 @endsection
 
 @section('content')
-<div class="shloka">
-    <h1>Chapter: {{ $verse->chapter }}</h1>
-    <h1>Verse: {{ $verse->verse }}</h1>
-    <p>Shloka: {{ $verse->shloka }}</p>
-    <p>Explanation: {{ $verse->explanation }}</p> 
-</div>
+<section class="features-boxed"></section>
+    <section class="contact-clean" style="color: var(--bs-blue);background: url(&quot;/img/sribhagavadgita.jpg&quot;) center / cover no-repeat;transform-style: preserve-3d;">
+        <form style="transform-style: preserve-3d;">
+            <h2 class="text-center">Chapter: {{ $verse->chapter }}</h2>
+            <h2 class="text-center">Verse: {{ $verse->verse }}</h2>
+            <h2 class="text-center">Shloka</h2>
+            <p class="text-center">{{ $verse->shloka }}</p>
+            <h2 class="text-center">Explanation</h2>
+            <p class="text-center">{{ $verse->explanation }}</p>
+    </form>
+    </section>
 @endsection

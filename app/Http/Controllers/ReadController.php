@@ -39,11 +39,11 @@ class ReadController extends Controller
         }
         catch(\Illuminate\Database\QueryException $ex)
         {
-            return view('read.verseOfTheDay');
+            return redirect()->action([ReadController::class, 'verseOfTheDay']);
         }
         if( $bhagavad == "")
         {
-            return view('read.verseOfTheDay');
+            return redirect()->action([ReadController::class, 'verseOfTheDay']);
         }
         return view('read.show', ['bhagavad' => $bhagavad]);
     }
