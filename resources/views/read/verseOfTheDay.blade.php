@@ -25,5 +25,10 @@
 
 @section('content')
 <h1>verseofday</h1>
-
+<div class="shloka">
+<h1>Chapter: {{ $verse->chapter }}</h1>
+<h1>Verse: {{ $verse->verse }}</h1>
+<p>Shloka: {{ $verse->shloka }}</p>
+<p>{{ $verse->explanation }}</p> 
+</div>
 @endsection

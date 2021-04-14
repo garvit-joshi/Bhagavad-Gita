@@ -12,7 +12,14 @@ class ReadController extends Controller
     }
 
     public function verseOfTheDay() {
-        return view('read.verseOfTheDay');
+        $bhagavad_count = Bhagavads::all()->count();
+        $id_no = rand(0, $bhagavad_count);
+        $bhagavad = Bhagavads::findOrFail($id_no);
+        error_log($bhagavad);
+        error_log(gettype($bhagavad));
+        return view('read.verseOfTheDay', [
+            'verse' => $bhagavad,
+        ]);
     }
 
     public function show($chapter) {
