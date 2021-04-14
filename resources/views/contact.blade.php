@@ -35,5 +35,5 @@
             <div class="mb-3"><button class="btn btn-primary" type="submit">send </button></div>
         </form>
     </section>
-<script src="assets/js/smart-forms.min.js"></script>
+<script src="/js/smart-forms.min.js"></script>
 @endsection
