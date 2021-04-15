@@ -25,7 +25,7 @@
 
 @section('content')
 <section class="features-boxed"></section>
-    <section class="contact-clean" style="color: var(--bs-blue);background: url(&quot;/img/sribhagavadgita.jpg&quot;) center / cover no-repeat;transform-style: preserve-3d;">
+    <section class="contact-clean" style="color: var(--bs-blue);background: url(&quot;/img/krishnaRathshadow.jpg&quot;) center / cover no-repeat;transform-style: preserve-3d;">
         <form style="transform-style: preserve-3d;">
             <h2 class="text-center">Chapter: {{ $bhagavad->chapter }}</h2>
             <h2 class="text-center">Verse: {{ $bhagavad->verse }}</h2>
