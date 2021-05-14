@@ -10,4 +10,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
       
