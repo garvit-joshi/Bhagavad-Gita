@@ -13,7 +13,7 @@
         "axios": "^0.21",
         "bootstrap": "^5.0.1",
         "jquery": "^3.2",
-        "laravel-mix": "^6.0.19",
+        "laravel-mix": "^6.0.20",
         "lodash": "^4.17.19",
         "popper.js": "^1.12",
         "postcss": "^8.3.4",
