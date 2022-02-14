@@ -13,7 +13,7 @@ class ReadController extends Controller
 
     public function verseOfTheDay() {
         $bhagavad_count = Bhagavads::all()->count();
-        $id_no = rand(0, $bhagavad_count);
+        $id_no = mt_rand(1, $bhagavad_count);
         error_log($id_no);
         error_log($bhagavad_count);
         $bhagavad = Bhagavads::findOrFail($id_no);
