@@ -75,6 +75,78 @@
                         <p class="description">Path of Meditation</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
                     </div>
                 </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 7 - Gyaan Vigyana Yoga</strong></h3>
+                        <p class="description">Self-Knowledge and Enlightenment</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 8 - Akshara Brahma Yoga</strong></h3>
+                        <p class="description">Path of the Eternal God</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 9 - Raja Vidya Yoga</strong></h3>
+                        <p class="description">Yoga through the King of Sciences</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 10 - Vibhooti Yoga</strong></h3>
+                        <p class="description">Yoga through Appreciating the Infinite Opulences of God</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 11 - Vishwaroopa Darshana Yoga</strong></h3>
+                        <p class="description">Yoga through Beholding the Cosmic Form of God</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 12 - Bhakti Yoga</strong></h3>
+                        <p class="description">The Yoga of Devotion</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 13 - Ksetra Ksetrajna Vibhaaga Yoga</strong></h3>
+                        <p class="description">Yoga through Distinguishing the Field and the Knower of the Field</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 14 - Gunatraya Vibhaga Yoga</strong></h3>
+                        <p class="description">Yoga through Understanding the Three Modes of Material Nature</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 15 - Purushottama Yoga</strong></h3>
+                        <p class="description">The Yoga of the Supreme Divine Personality</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 16 - Daivasura Sampad Vibhaga Yoga</strong></h3>
+                        <p class="description">Yoga through Discerning the Divine and Demoniac Natures</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 17 - Sraddhatraya Vibhaga Yoga</strong></h3>
+                        <p class="description">Yoga through Discerning the Three Divisions of Faith</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-5 col-lg-4 item">
+                    <div class="box">
+                        <h3 class="name"><strong>Chapter 18 - Moksha Sanyaas Yoga</strong></h3>
+                        <p class="description">Yoga through the Perfection of Renunciation and Surrender</p><a class="learn-more" href="{{ url('read/6') }}">Learn more »</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
